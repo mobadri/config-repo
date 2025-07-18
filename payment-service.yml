@@ -2,4 +2,4 @@ salesTaxPercentage: 20
 server:
   port: 8080
 example:
-  message: "hola 3 !"
+  message: "hola 7 !"
