@@ -1,3 +1,5 @@
 salesTaxPercentage: 20
 server:
   port: 8080
+example:
+  message: "Hello from Git Config !"
