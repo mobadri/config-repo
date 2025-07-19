@@ -15,4 +15,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: env,busrefresh
+        include:
+          - env
+          - busrefresh
