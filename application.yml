@@ -12,9 +12,6 @@ spring:
         enabled: true
 
 management:
-  endpoint:
-    env:
-      show-values: always
   endpoints:
     web:
       exposure:
