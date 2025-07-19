@@ -1,8 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: env,busrefresh
 
 spring:
   rabbitmq:
@@ -15,3 +10,9 @@ spring:
       enabled: true
       refresh:
         enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env,busrefresh
