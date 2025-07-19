@@ -1,4 +1,4 @@
 server:
   port: 8081
 example:
-  message: "Hello from Git Config !"
+  message: "Hello from User Config !"
