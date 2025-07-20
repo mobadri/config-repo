@@ -1,4 +1,4 @@
 server:
   port: 8081
 example:
-  message: "Hello from User Config with Pub/Sub 2!"
+  message: "Hello from User Config with Pub/Sub 3!"
