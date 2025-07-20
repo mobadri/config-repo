@@ -2,4 +2,4 @@ salesTaxPercentage: 20
 server:
   port: 8080
 example:
-  message: "Hello from Payment Config !"
+  message: "Hello from Payment Config with Pub/Sub !"
