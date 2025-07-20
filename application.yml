@@ -6,7 +6,6 @@ management:
           - env
           - busrefresh
           - health
-          - info
 spring:
   #  rabbitmq:
   #    host: localhost
