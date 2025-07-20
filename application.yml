@@ -5,15 +5,22 @@ management:
         include:
           - env
           - busrefresh
+          - health
+          - info
 spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  #  rabbitmq:
+  #    host: localhost
+  #    port: 5672
+  #    username: guest
+  #    password: guest
   cloud:
     bus:
       enabled: true
       refresh:
         enabled: true
+      destination: spring-cloud-bus-gcp-topic
+    gcp:
+      pubsub:
+        enabled: true
+      project-id: bubbly-map-416020
 
